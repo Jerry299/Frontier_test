@@ -1,0 +1,11 @@
+{
+  "preset": "jest-puppeteer",
+  "testEnvironment": "node",
+  "roots": ["../src/tests/"],
+  "transform": {
+    "^.+\\.tsx?$": "ts-jest"
+  },
+  "collectCoverageFrom": ["../src/"],
+  "moduleFileExtensions": ["ts", "js", "json"],
+  "coverageDirectory": "../coverage"
+}
